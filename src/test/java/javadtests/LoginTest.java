@@ -18,11 +18,10 @@ public class LoginTest extends BasicTestCase {
         menuTop.open();
         profilePage = menuTop.openProfile();
         profilePage.loginAs(admin);
+        Assert.assertTrue(PageTitle("JAVAD GNSS :: Home Page"));
         profilePage = menuTop.openProfile();
         profilePage.logOut();
-//        Assert.assertTrue(mainPage.isLoggedIn());
-//        mainPage.logout();
-//        Asserft.assertTrue(mainPage.isLoggedOut());
+        Assert.assertTrue(PageTitle("JAVAD GNSS"));
     }
 }
 

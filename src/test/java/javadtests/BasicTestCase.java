@@ -21,6 +21,11 @@ public class BasicTestCase {
         }
         return driver;
     }
+
+    protected boolean PageTitle(String waitedTitle){
+        return driver.getTitle().contains(waitedTitle);
+    }
+
     @AfterTest
     public  void tearDown () throws Exception {
  //       driver.quit();

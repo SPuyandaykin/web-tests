@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af2b8eaf-de82-42de-accb-2b5ba125cd4e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/javadpages/ProfilePage.java" afterPath="$PROJECT_DIR$/src/main/java/javadpages/ProfilePage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/javadtests/BasicTestCase.java" afterPath="$PROJECT_DIR$/src/test/java/javadtests/BasicTestCase.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/javadtests/LoginTest.java" afterPath="$PROJECT_DIR$/src/test/java/javadtests/LoginTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,10 +19,12 @@
       <file leaf-file-name="BasicTestCase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/javadtests/BasicTestCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="14" column="64" lean-forward="false" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="64" />
+            <state relative-caret-position="-133">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#721#722#0" expanded="true" />
+                <element signature="e#783#784#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,8 +75,8 @@
       <file leaf-file-name="LoginTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/javadtests/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-32">
-              <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+            <state relative-caret-position="304">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -174,8 +175,8 @@
         <option value="$PROJECT_DIR$/src/main/java/javadpages/MainPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/javadpages/MenuTop.java" />
         <option value="$PROJECT_DIR$/src/main/java/javaddata/UserData.java" />
-        <option value="$PROJECT_DIR$/src/test/java/javadtests/BasicTestCase.java" />
         <option value="$PROJECT_DIR$/src/main/java/javadpages/ProfilePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/javadtests/BasicTestCase.java" />
         <option value="$PROJECT_DIR$/src/test/java/javadtests/LoginTest.java" />
       </list>
     </option>
@@ -199,8 +200,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="331" />
-    <option name="y" value="125" />
+    <option name="x" value="293" />
+    <option name="y" value="62" />
     <option name="width" value="1569" />
     <option name="height" value="905" />
   </component>
@@ -484,15 +485,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTest - 2017.12.01 at 14h 19m 47s.xml">
-      <configuration name="LoginTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTest - 2017.12.01 at 14h 20m 46s.xml">
-      <configuration name="LoginTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTest - 2017.12.01 at 14h 22m 25s.xml">
-      <configuration name="LoginTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="LoginTest - 2017.12.01 at 14h 22m 59s.xml">
       <configuration name="LoginTest" configurationId="TestNG" />
     </history-entry>
@@ -514,9 +506,18 @@
     <history-entry file="LoginTest - 2017.12.01 at 15h 22m 00s.xml">
       <configuration name="LoginTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="LoginTest - 2017.12.01 at 15h 36m 22s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest - 2017.12.01 at 15h 38m 38s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest - 2017.12.01 at 15h 47m 22s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="331" y="125" width="1569" height="905" extended-state="0" />
+    <frame x="293" y="62" width="1569" height="905" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -563,6 +564,8 @@
           <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -649,6 +652,8 @@
           <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -735,6 +740,8 @@
           <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -927,18 +934,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/javadtests/BasicTestCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="14" column="64" lean-forward="false" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="64" />
+        <state relative-caret-position="-133">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/javadtests/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
-          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        <state relative-caret-position="304">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
