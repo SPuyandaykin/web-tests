@@ -20,16 +20,22 @@ public class ProfilePage extends Page {
     @FindBy(css="input[type='Password']+button[class='button']")
     public WebElement buttonLogin;
 
+    @FindBy(css="img[src='/jgnss/crm/ico/UserHome/logout.gif']")
+    public WebElement buttonLogOut;
+
     public ProfilePage(WebDriver driver){
         super(driver);
     }
 
     public void loginAs (UserData admin){
-//        linkSingIn.clear();
         type(fieldUsername, admin.name);
         type(fieldPassword, admin.password);
         buttonLogin.click();
 //        return PageFactory.initElements(driver, MainPage.class);
+    }
+
+    public void logOut (){
+        buttonLogOut.click();
     }
 
     @Override

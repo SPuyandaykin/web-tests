@@ -18,9 +18,11 @@ public class LoginTest extends BasicTestCase {
         menuTop.open();
         profilePage = menuTop.openProfile();
         profilePage.loginAs(admin);
+        profilePage = menuTop.openProfile();
+        profilePage.logOut();
 //        Assert.assertTrue(mainPage.isLoggedIn());
 //        mainPage.logout();
-//        Assert.assertTrue(mainPage.isLoggedOut());
+//        Asserft.assertTrue(mainPage.isLoggedOut());
     }
 }
 
